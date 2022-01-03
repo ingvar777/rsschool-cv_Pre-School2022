@@ -40,3 +40,10 @@ Hey! I'm a beginner front-end developer. I want to acquire new knowledge and ski
 ### Work Expirience
 **Student** *12/2021-Now*<br>
 Now I have no projects that I could show. But it will be very interesting for me to supplement this section as I gain new knowledge on this course.
+
+---
+### Hobbies
+- Listen music
+- Drive car
+- Reading books
+- Sport
