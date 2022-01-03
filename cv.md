@@ -31,6 +31,22 @@ Hey! I'm a beginner front-end developer. I want to acquire new knowledge and ski
 
 ---
 
+### Code example
+
+```javascript
+function assert(value, desc) {
+   let li = document.createElement("li");
+   li.className = value ? "pass" : "fail";
+   if (!desc) {
+      desc = value ? "This true" : "This false";
+   }
+   li.appendChild(document.createTextNode(desc));
+   document.getElementById("result").appendChild(li);
+}
+```
+
+---
+
 ### Foreign languages
 - Russia (Native)
 - English (A1)
