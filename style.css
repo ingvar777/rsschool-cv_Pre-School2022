@@ -1,0 +1,12 @@
+/* CSS Reset start */
+*,
+*::before,
+*::after {
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+}
+ul {
+   list-style: none;
+}
+/* CSS Reset end */
