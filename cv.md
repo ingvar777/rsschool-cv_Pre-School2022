@@ -13,3 +13,13 @@
 
 ### Education
 **012/2021-Now** Course: JavaScript Development. Rolling Scopes School
+
+---
+
+### Skills
+- HTML
+- CSS
+- JS
+- Webpack
+- Node
+- Git
