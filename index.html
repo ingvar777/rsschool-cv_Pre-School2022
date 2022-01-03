@@ -5,25 +5,228 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/styles.css">
     <title>RS School CV FrontEnd</title>
 </head>
 
 <body>
-        <div class="wrapper">
-            <header class="header">
-                Header
-            </header>
-            
-            <main class="main">
-                Main
-            </main>
-            
-            <footer class="footer">
-                Footer
-            </footer>
-            
-        </div>
+
+    <div class="wrapper">
+        <header class="header">
+            <div class="col">
+                <figure class="header__avatar">
+                    <img src="css/imgs/photo.jpg" class="header__picture" alt="Header avatar">
+                </figure>
+            </div>
+            <div class="col col_main col_header">
+                <h1 class="header__title">Gruzdev Igor</h1>
+                <h3 class="header__subtitle">Beginner Web-developer</h3>
+            </div>
+        </header>
+        <main class="main">
+            <div class="col">
+                <section class="doc-section contact">
+                    <h2 class="doc-title">Contacts</h2>
+                    <div class="doc-title doc-underlined"></div>
+                    <ul class="contact__wrapper">
+                        <li class="contact__block">
+                            <div class="contact__image contact__image_github"></div>
+                            <div class="contact__text">
+                                <a href="https://github.com/fake777" target="_blank"
+                                    class="contact__link">github.com/fake777</a>
+                            </div>
+                        </li>
+                        <li class="contact__block">
+                            <div class="contact__image contact__image_vk"></div>
+                            <div class="contact__text">
+                                <a href="https://vk.com/id777" target="_blank" class="contact__link">vk.com/id777</a>
+                            </div>
+                        </li>
+
+                        <li class="contact__block">
+                            <div class="contact__image contact__image_email"></div>
+                            <div class="contact__text">
+                                <a href="mailto:fake777@gmai.com" class="contact__link">fake777@gmai.com</a>
+                            </div>
+                        </li>
+                        <li class="contact__block">
+                            <div class="contact__image contact__image_map"></div>
+                            <div class="contact__text">
+                                <p class="contact__paragraph">Russia, Langepas</p>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+                <section class="doc-section education">
+                    <h2 class="doc-title">Education</h2>
+                    <div class="doc-title doc-underlined"></div>
+                    <div class="education__block">
+                        <div class="date education__date">09/2021-Now</div>
+                        <p class="education__text">Course: JavaScript Development. Rolling Scopes School</p>
+                    </div>
+                    <div class="education__block">
+                        <div class="date education__date">11/2020-09/2021</div>
+                        <p class="education__text">Self-education</p>
+                    </div>
+
+                </section>
+                <section class="doc-section skills">
+                    <h2 class="doc-title">Skills</h2>
+                    <div class="doc-title doc-underlined"></div>
+                    <ul class="skills__wrapper">
+                        <li class="skills__block">
+                            <p class="skills__text">HTML</p>
+                            <ul class="skills-list">
+                                <li class="skills-list__dot"></li>
+                                <li class="skills-list__dot skills-list__dot_off"></li>
+                                <li class="skills-list__dot skills-list__dot_off"></li>
+                                <li class="skills-list__dot skills-list__dot_off"></li>
+                                <li class="skills-list__dot skills-list__dot_off"></li>
+                                <li class="skills-list__dot skills-list__dot_off"></li>
+                            </ul>
+                        </li>
+                        <li class="skills__block">
+                            <p class="skills__text">CSS</p>
+                            <ul class="skills-list">
+                                <li class="skills-list__dot"></li>
+                                <li class="skills-list__dot skills-list__dot_off"></li>
+                                <li class="skills-list__dot skills-list__dot_off"></li>
+                                <li class="skills-list__dot skills-list__dot_off"></li>
+                                <li class="skills-list__dot skills-list__dot_off"></li>
+                                <li class="skills-list__dot skills-list__dot_off"></li>
+                            </ul>
+                        </li>
+                        <li class="skills__block">
+                            <p class="skills__text">JS</p>
+                            <ul class="skills-list">
+                                <li class="skills-list__dot"></li>
+                                <li class="skills-list__dot skills-list__dot_off"></li>
+                                <li class="skills-list__dot skills-list__dot_off"></li>
+                                <li class="skills-list__dot skills-list__dot_off"></li>
+                                <li class="skills-list__dot skills-list__dot_off"></li>
+                                <li class="skills-list__dot skills-list__dot_off"></li>
+                            </ul>
+                        </li>
+
+                        <li class="skills__block">
+                            <p class="skills__text">Webpack</p>
+                            <ul class="skills-list">
+                                <li class="skills-list__dot"></li>
+                                <li class="skills-list__dot skills-list__dot_off"></li>
+                                <li class="skills-list__dot skills-list__dot_off"></li>
+                                <li class="skills-list__dot skills-list__dot_off"></li>
+                                <li class="skills-list__dot skills-list__dot_off"></li>
+                                <li class="skills-list__dot skills-list__dot_off"></li>
+                            </ul>
+                        </li>
+
+                        <li class="skills__block">
+                            <p class="skills__text">Node</p>
+                            <ul class="skills-list">
+                                <li class="skills-list__dot"></li>
+                                <li class="skills-list__dot skills-list__dot_off"></li>
+                                <li class="skills-list__dot skills-list__dot_off"></li>
+                                <li class="skills-list__dot skills-list__dot_off"></li>
+                                <li class="skills-list__dot skills-list__dot_off"></li>
+                                <li class="skills-list__dot skills-list__dot_off"></li>
+                            </ul>
+                        </li>
+
+                        <li class="skills__block">
+                            <p class="skills__text">Git</p>
+                            <ul class="skills-list">
+                                <li class="skills-list__dot"></li>
+                                <li class="skills-list__dot skills-list__dot_off"></li>
+                                <li class="skills-list__dot skills-list__dot_off"></li>
+                                <li class="skills-list__dot skills-list__dot_off"></li>
+                                <li class="skills-list__dot skills-list__dot_off"></li>
+                                <li class="skills-list__dot skills-list__dot_off"></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </section>
+                <section class="doc-section languages">
+                    <h2 class="doc-title">Foreign languages</h2>
+                    <div class="doc-title doc-underlined"></div>
+                    <ul class="languages__list">
+                        <li class="languages__item">Russia (Native)</li>
+                        <li class="languages__item">English (A1)</li>
+                    </ul>
+                </section>
+            </div>
+            <div class="col col_main col_center">
+                <section class="doc-section about">
+                    <h2 class="doc-title">About me</h2>
+                    <div class="doc-title doc-underlined"></div>
+                    <p class="about__text">
+                        Hey! I'm a beginner front-end developer. I want to acquire new knowledge and skills. Now I
+                        work in a large company whose activities are not related to the course being studied. In the
+                        future, I would like to work in a strong team on innovative projects. I want to make
+                        beautiful interactive websites.
+                    </p>
+                </section>
+                <section class="doc-section work">
+                    <h2 class="doc-title">Work Expirience</h2>
+                    <div class="doc-title doc-underlined"></div>
+
+                    <div class="work__block">
+                        <h3 class="work__head">Student</h3>
+                        <div class="work__info">
+                            <div class="date work__date">09/2021-Now</div>
+
+                        </div>
+                        <div class="work__text">
+                            <p class="doc-text">Now I have no projects that I could show. But it will be very
+                                interesting for me to supplement this section as I gain new knowledge on this
+                                course.</p>
+
+                        </div>
+                    </div>
+
+
+
+                </section>
+                <section class="doc-section hobby">
+                    <h2 class="doc-title">Hobbies</h2>
+                    <div class="doc-title doc-underlined"></div>
+                    <div class="hobby__wrapper">
+                        <div class="hobby__row">
+                            <div class="hobby__block">
+                                <div class="hobby__dot"></div>
+                                <p class="hobby__text">Listen music</p>
+                            </div>
+                            <div class="hobby__block">
+                                <div class="hobby__dot"></div>
+                                <p class="hobby__text">Drive car</p>
+                            </div>
+                        </div>
+                        <div class="hobby__row">
+                            <div class="hobby__block">
+                                <div class="hobby__dot"></div>
+                                <p class="hobby__text">Reading books</p>
+                            </div>
+                            <div class="hobby__block">
+                                <div class="hobby__dot"></div>
+                                <p class="hobby__text">Sport</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="footer__inner">
+
+                <div class="footer__block">
+                    <div class="footer__text">20
+                        <a href="https://rs.school/js-stage0/" target="_blank" class="footer__link">
+                            <img src="./css/imgs/rs-logo.svg" class="footer__image" alt="RS School"></a>
+                        22
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
 </body>
 
 </html>
