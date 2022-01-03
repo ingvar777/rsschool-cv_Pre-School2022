@@ -23,3 +23,9 @@
 - Webpack
 - Node
 - Git
+
+---
+
+### Foreign languages
+- Russia (Native)
+- English (A1)
